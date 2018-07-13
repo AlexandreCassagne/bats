@@ -1,3 +1,4 @@
 build:
-	swiftc "bats.swift" -o bats
+	mkdir -p ./build
+	swiftc "bats.swift" -o ./build/bats
 
